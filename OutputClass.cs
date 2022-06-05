@@ -8,7 +8,7 @@ namespace Quadratic_Function_Calculator
 {
     internal class OutputClass
     {
-        public static double Output(double a, double b, double c)
+        public static void Output(double a, double b, double c)
         {
             double delta = Math.Pow(b, 2) - 4 * a * c;
             double p = -b / (2 * a);
@@ -45,8 +45,6 @@ namespace Quadratic_Function_Calculator
                     $"p = {p} \n" +
                     $"q = {q}");
             }
-
-            return 0;
         }
     }
 }

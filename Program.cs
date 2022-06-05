@@ -16,7 +16,7 @@
             {
                 inputClass.Input();
                 Console.WriteLine("Aby kontynuować wpisz con lub wciśnij ENTER, aby zamknąć program wpisz quit");
-                string answer = Console.ReadLine();
+                var answer = Console.ReadLine();
 
                 if (answer == "con")
                 {
